@@ -1,1 +1,24 @@
-<p>login works!</p>
+<div class="row">
+    <div class="col-md-12 mt-4">
+        <h2 class="centered">Login</h2>
+        <form>
+            <div class="form-group">
+              <input type="email" placeholder="Email address" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control" id="password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="keepLoggedIn">
+              <label class="form-check-label" for="keepLoggedIn">Keep me logged in</label>
+            </div>
+            <div class="row">
+              <a [routerLink]="['reset-password']">Forgot password?</a>
+            </div>
+            <div class="right">
+                <button type="submit" class="btn btn-success">Log in</button>
+            </div>
+          </form>
+    </div>
+</div>

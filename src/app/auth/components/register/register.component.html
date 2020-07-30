@@ -1,1 +1,36 @@
-<p>register works!</p>
+<h2 class="centered mb-4">Registration</h2>
+
+<form>
+    <div class="col-md-6 float-left">
+        <div class="form-group">
+            <input type="text" placeholder="First name *" class="form-control mb-4" id="firstName">
+        </div>
+        <div class="form-group">
+            <textarea placeholder="Middle names" rows="3" cols="50" class="form-control"></textarea>
+            <small class="form-text text-muted">Separate by semicolon ( <b class="red">;</b> )</small>
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Last name *" class="form-control mb-4" id="lastName">
+        </div>
+    </div>
+    <div class="col-md-6 float-right">
+        <div class="form-group">
+            <input type="email" placeholder="Email address *" class="form-control mb-4" id="email" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <input type="password" placeholder="Password *" class="form-control mb-4" id="password">
+        </div>
+        <div class="form-group">
+            <input type="password" placeholder="Confirm Password *" class="form-control mb-4" id="confirmPassword">
+        </div>
+    </div>
+    <div class="centered">
+        <p>Fields marked with star ( <b class="red">*</b> ) are mandatory.</p>
+        <br>
+        
+        <div>
+            <button type="submit" class="btn btn-success">Register</button>
+        </div>
+    </div>
+</form>
