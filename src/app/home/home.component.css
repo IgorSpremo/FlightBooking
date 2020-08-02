@@ -1,0 +1,12 @@
+#airplane1 {
+    position: relative;
+    animation-name: myAnim;
+    animation-duration: 4s;
+    left: -1400px; 
+    top: 0px;
+}
+
+@keyframes myAnim {
+    0% { left: -1400px; top: 0px; }
+    100% {left: 1920px; top: -500px;}
+}

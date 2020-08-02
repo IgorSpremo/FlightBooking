@@ -1,0 +1,48 @@
+<!-- {{ user.firstName **ngFor="let name of user.middleNames" {{name}} user.lastName }} -->
+<div class="container">
+    <h2 class="centered">User profile</h2>
+    <form>
+        <table class="table table-light">
+            <thead class="thead-light">
+                <tr>
+                    <th></th>
+                    <th>First name</th>
+                    <th>Middle names</th>
+                    <th>Last name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="assets/images/Default avatar.png">
+                        </div>
+                        <div class="centered mt-2">
+                            <button class="btn btn-secondary">Change</button>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="text" name="firstName" value="Igor">
+                    </td>
+                    <td>
+                        <textarea name="middleNames" cols="30" rows="2"></textarea>
+                    </td>
+                    <td>
+                        <input type="text" name="lastName" value="Spremo">
+                    </td>
+                    <td>
+                        <input type="mail" name="mail" value="igor.spremo@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="centered">
+                        <button class="btn btn-warning mr-2">Back</button>
+                        <input type="submit" class="btn btn-success" value="Save">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </form>
+</div>
