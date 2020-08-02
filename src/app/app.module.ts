@@ -10,6 +10,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import {AuthModule} from './auth/auth.module';
 import { from } from 'rxjs';
 import { ProfileComponent } from './profile/profile.component';
+import { DestinationComponent } from './destination/destination.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProfileComponent } from './profile/profile.component';
     FooterComponent,
     GalleryComponent,
     ProfileComponent,
+    DestinationComponent,
   ],
   imports: [
     BrowserModule,
