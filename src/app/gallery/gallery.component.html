@@ -1,11 +1,23 @@
 <div class="container">
-    <div class="row">&nbsp;</div>
-    <div class="row">
+    <div class="row mt-5">
         <div class="col-md-12">
-            <div id="grid" class="row">
-                <div class="mix col-sm-4 page1 page4 margin30">
+            <div class="row">
+                <a [routerLink]="['destination']"></a>
+                <div class="mix col-sm-4 page1 page4 margin30" data-toggle="tooltip" title="Rome">
+                    <div class="item-img-wrap">
+                        <img src="assets/images/Rome.jpg" class="img-responsive" placement="bottom" ngbTooltip="Tooltip on bottom">
+                    </div> 
+                </div>
+                
+                <div class="mix col-sm-4  page2 margin30">
                     <div class="item-img-wrap ">
-                        <img src="assets/images/Rome.jpg" class="img-responsive" alt="Rome">
+                        <img src="assets/images/Tokyo.jpg" class="img-responsive" alt="workimg">
+                    </div> 
+                </div>
+
+                <div class="mix col-sm-4  page2 margin30">
+                    <div class="item-img-wrap ">
+                        <img src="assets/images/Singapore.jpg" class="img-responsive" alt="workimg">
                         <div class="item-img-overlay">
                             <a href="#" class="show-image">
                                 <span></span>
@@ -13,7 +25,6 @@
                         </div>
                     </div> 
                 </div>
-                
                 
                 <div class="mix col-sm-4  page2 margin30">
                     <div class="item-img-wrap ">
