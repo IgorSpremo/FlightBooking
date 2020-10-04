@@ -4,6 +4,7 @@
     animation-duration: 4s;
     left: -1400px; 
     top: 0px;
+    z-index: -1;
 }
 
 @keyframes myAnim {
